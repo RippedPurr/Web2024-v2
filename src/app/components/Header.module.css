@@ -1,9 +1,12 @@
 /* components/Header.module.css */
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url(../fonts/Gilroy-Light.otf);
+}
 .header {
-    background-color: rgb(27, 27, 91);
   backdrop-filter: blur(10px);
   position: fixed;
-  top: 0;
+  top: 0; 
   left: 0;
   right: 0;
   z-index: 1000;
@@ -26,7 +29,7 @@
   color: #f9fbfc;
   text-decoration: none;
   transition: color 0.3s ease;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 .logo a:hover{
   color: #dd7016;
@@ -36,8 +39,8 @@
   display: flex;
   list-style: none;
   gap: 2rem;
-  margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .navList li a {
@@ -45,7 +48,7 @@
   color: #ffffff;
   font-weight: 500;
   transition: color 0.3s ease;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Gilroy-Light';
 }
 
 .navList li a:hover {

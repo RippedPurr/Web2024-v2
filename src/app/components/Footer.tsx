@@ -1,12 +1,28 @@
+import styles from "./Footer.module.css"
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-white py-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center">
+    <footer className={styles.footer}>
+      <div className={styles.container}>
+        <div className={styles.textcont}>
           <p className="text-sm">© 2018-2024 AQUARIM</p>
-          <p className="text-sm ml-4">Политика обработки персональных данных</p>
+          <div className={styles.list}>
+            <h3 className={styles.h3}>О РЕСТОРАНЕ</h3>
+            <h5 className={styles.h5}>О шефе</h5>
+            <h5 className={styles.h5}>Галерея</h5>
+            <h5 className={styles.h5}>Новости</h5>
+            <h5 className={styles.h5}>Команда</h5>
+          </div>
+            <div className={styles.list}>
+            <h3 className={styles.h3}>ДЛЯ ПОСЕТИТЕЛЕЙ</h3>
+            <h5 className={styles.h5}>Меню</h5>
+            <h5 className={styles.h5}>Доставка и оплата</h5>
+            <h5 className={styles.h5}>Отзывы</h5>
+            <h5 className={styles.h5}>Контакты</h5>
+          </div>
         </div>
-        <div className="flex items-center">
+        <h1 className={styles.bgTitle}>AQUARIM</h1>
+        <div className={styles.textcont1}>
+          <p className="text-sm ml-4">Политика обработки персональных данных</p>
           <p className="text-sm">Desing by @sssuttle</p>
         </div>
       </div>

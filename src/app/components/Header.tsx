@@ -14,8 +14,8 @@ const Header = () => {
           <li><Link href="/menu">Меню</Link></li>
           <li><Link href="/delivery">Доставка и оплата</Link></li>
           <li><Link href="/contacts">Контакты</Link></li>
-          <li><Link href="#"><img src="basket.png"></img></Link></li>
-        </ul>
+          
+        </ul><Link href="#"><img src="basket.png" className='margin: 18ch'></img></Link>
       </nav>
     </header>
   );

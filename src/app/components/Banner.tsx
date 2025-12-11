@@ -34,7 +34,11 @@ export default function Banner() {
         <div className={styles.rightColumn}>
           <h2 className={styles.columnTitle}>РЕСТОРАН</h2>
           <div className={styles.rightText}>
-            <p><Image src="/Group.png" alt="fish" width={50} height={50}/> Свежая рыба из наших аквариумов — гарантированная свежесть</p>
+            <div className={styles.subcolumn}>
+              <Image src="/Group.png" alt="fish" width={50} height={50}/><p> Свежая рыба из наших аквариумов — гарантированная свежесть</p>
+            </div>
+            
+            
             <p><Image src="/Frame.png" alt="man" width={50} height={50}/> Качественная доставка, где горячие блюда сохраняют свой вкус</p>
           </div>
         </div>

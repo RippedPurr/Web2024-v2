@@ -1,6 +1,10 @@
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url(../fonts/Gilroy-Light.otf);
+}
 .main {
   min-height: 100vh;
-  background-color: #082554;
+  background-color: #0a2d66;
   color: #fff;
   display: flex;
   align-items: center;
@@ -8,14 +12,14 @@
   position: relative;
   overflow: hidden;
   padding: 3rem 2rem;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Gilroy-Light' ;
 }
 
 .bgTitle {
   position: absolute;
   font-family: 'Playfair Display', serif;
   font-size: 18rem;
-  color: rgba(255, 255, 255, 0.07);
+  color: rgba(255, 255, 255, 0.184);
   user-select: none;
   pointer-events: none;
   top: 10%;
@@ -30,6 +34,7 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 2rem;
+  margin-top: 28ch ;
   max-width: 1100px;
   width: 100%;
   z-index: 2;
@@ -50,18 +55,19 @@
 
 .text {
   color: #cbd5e1;
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.6;
-  max-width: 270px;
-}
+  max-width: 370px;
+} 
 
 .button {
-  background-color: #f87d58;
+  background-color: #E9663D;
   color: white;
   border: none;
   padding: 0.8rem 1.8rem;
   border-radius: 1px;
   font-weight: 600;
+  font-family: 'Gilroy-Light';
   cursor: pointer;
   width: 140px;
   transition: background-color 0.2s ease;
@@ -76,6 +82,7 @@
 .centerColumn {
   display: flex;
   justify-content: center;
+  margin-top: -16ch;
 }
 
 .image {
@@ -88,13 +95,22 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  margin-top: 3ch;
+}
+.subcolumn {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.subcontainer {
+  padding: auto;
 }
 
 .rightText {
   color: #cbd5e1;
-  font-size: 0.95rem;
+  font-size: 1 rem;
   line-height: 1.6;
-  max-width: 270px;
+  max-width: 370px;
 }
 
 .rightText p {

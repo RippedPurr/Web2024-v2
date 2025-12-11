@@ -1,10 +1,18 @@
+@font-face {
+  font-family: 'Oceanic TRIAL Regular';
+  src: url(../fonts/TRIAL_Oceanic-Regular.otf);
+}
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url(../fonts/Gilroy-Light.otf);
+}
 .aboutSection {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #003366;
+  background-color: #0a2d66;
   color: white;
-  padding: 40px;
+  padding: 90px;
+  
 }
 
 .textContainer {
@@ -13,14 +21,17 @@
 }
 
 .title {
-  font-size: 36px;
+  font-size: 56px;
   margin-bottom: 20px;
+  break-after: auto;
+  font-family: 'Oceanic TRIAL Medium';
 }
 
 .text {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 30px;
+  font-family: 'Gilroy-Light';
 }
 
 .button {
@@ -47,4 +58,10 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+.subcolumn {
+  display: flex;
+  width: 1000px;
+  flex-direction: row;
+  gap: 5px;
 }

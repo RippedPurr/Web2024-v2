@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import AboutSection from './components/AboutSection';
+import FoodSlider from './components/FoodSlider';
+import FoodSlider2 from './components/FoodSlider2';
 
 export default function Home() {
   return (
@@ -15,6 +17,9 @@ export default function Home() {
       <Header />
       <Banner />
       <AboutSection />
+      <FoodSlider />
+
+      <FoodSlider2 />
     </div>
   );
 }
